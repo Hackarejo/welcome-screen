@@ -1,0 +1,183 @@
+.svg-anim {
+	animation-iteration-count: infinite;
+	transform-origin: 50% 50%;
+	animation-timing-function: linear;
+}
+
+.long-anim {
+	animation-duration: 15s;
+}
+
+.fast-anim {
+	animation-duration: 5s;
+}
+
+.hyper-fast-anim {
+	animation-duration: 3s;
+}
+
+/* GEAR */
+.gear {
+	animation-name: gear-anim;
+}
+
+
+@keyframes gear-anim {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(359deg);}
+}
+
+/* LIGHT UP */
+.light-up {
+	animation-name: light-up-anim;
+}
+
+@keyframes light-up-anim {
+	0% {fill: rgb(161, 126, 11);}
+	1% {fill: rgb(252, 206, 43);}
+	2% {fill: rgb(161, 126, 11);}
+	10% {fill: rgb(252, 206, 43);}
+	12% {fill: rgb(161, 126, 11);}
+	13% {fill: rgb(252, 206, 43);}
+}
+
+/* LAMP */
+.lamp{
+	animation-name: lamp-anim;
+	animation-iteration-count: infinite;
+	transform-origin: 50% 50%;
+	animation-timing-function: linear;
+	animation-duration: 5s;
+}
+
+@keyframes lamp-anim {
+	0% {fill: rgb(161, 126, 11);}
+	10% {fill: rgb(252, 206, 43);}
+	12% {fill: rgb(161, 126, 11);}
+	14% {fill: rgb(252, 206, 43);}
+	50% {fill: rgb(252, 206, 43);}
+	75% {fill: rgb(252, 206, 43);}
+	76% {fill: rgb(252, 206, 43);}
+	78% {fill: rgb(161, 126, 11);}
+	80% {fill: rgb(252, 206, 43);}
+}
+
+/*HEART*/
+
+#heart {
+	animation-name: heart-anim;
+	animation-duration: 0.5s;
+}
+
+@keyframes heart-anim {
+	0% { transform: scale(1, 1);}
+	80% { transform: scale(1, 1);}
+	90% { transform: scale(1.2, 1.2);}
+	100% { transform: scale(1, 1);}
+}
+
+/*LOGO */
+
+#logo .paint {
+	animation-name: logo-anim;
+	animation-iteration-count: infinite;
+	transform-origin: 50% 50%;
+	animation-timing-function: linear;
+
+	animation-duration: 5s;
+}
+
+@keyframes logo-anim {
+	0% {fill: rgb(161, 126, 11);}
+	25% {fill: rgb(252, 206, 43);}
+	75% {fill: rgb(252, 206, 43);}
+	100% {fill: rgb(161, 126, 11);}
+}
+
+/* GEAR RESULTS*/
+
+#gear-results path {
+	animation-name: gear-result-anim;
+	animation-iteration-count: infinite;
+	transform-origin: 50% 50%;
+	animation-timing-function: linear;
+	animation-duration: 3s;
+}
+
+
+@keyframes gear-result-anim {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(359deg);}
+}
+
+/*porcent-result */
+#porcent-result {
+	animation-name: gear-result-anim;
+	animation-iteration-count: infinite;
+	transform-origin: 50% 50%;
+	animation-timing-function: linear;
+	animation-duration: 8s;
+}
+
+@keyframes porcent-result -anim {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(359deg);}
+}
+
+/*talk_result*/
+
+#talk_result {
+	animation-name: talk_result-anim;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	transform-origin: 50% 50%;
+	animation-timing-function: linear;
+}
+
+@keyframes talk_result-anim {
+	0% { transform: scale(1, 1);}
+	50% { transform: scale(1.2, 1.2);}
+	100% { transform: scale(1, 1);}
+}
+
+/*card-result*/
+
+#card-result {
+	animation-name: card-result-anim;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	transform-origin: 50% 50%;
+	animation-timing-function: linear;
+}
+
+@keyframes card-result-anim {
+	0% { transform: translateY(0px);}
+	50% { transform: translateY(-15px);}
+}
+
+/*grapich-result*/
+
+.grapich-result {
+	animation-name: grapich-result-anim;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	transform-origin: 100% 100%;
+	animation-timing-function: linear;
+}
+
+.grapich-result:nth-child(2) {
+	animation-name: grapich-result-anim2;
+}
+
+@keyframes grapich-result-anim {
+	0% {transform: scaleY(1);}
+	25% {transform: scaleY(0.5);}
+	75% {transform: scaleY(1.4);}
+	100% {transform: scaleY(1);}
+}
+@keyframes grapich-result-anim2 {
+	0% {transform: scaleY(.2);}
+	25% {transform: scaleY(1.5);}
+	75% {transform: scaleY(0.8);}
+	100% {transform: scaleY(1);}
+}
